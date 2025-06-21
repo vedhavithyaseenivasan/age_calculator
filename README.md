@@ -25,10 +25,44 @@ The **Age Calculator App** is a clean and efficient mobile application developed
 
 ## 📦 Dependencies
 
-Add the following to your `pubspec.yaml` if needed:
+In your `pubspec.yaml`:
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.18.1  # For date formatting
+  http: ^0.14.0
+  share_plus: ^7.2.1
+```
+
+---
+
+## 🚀 Getting Started
+To run the project locally:
+
+- Clone the repository
+
+  ```bash
+  https://github.com/vedhavithyaseenivasan/age_calculator.git
+  cd age_calculator
+  ```
+  
+- Install packages
+  
+  ```bash
+  flutter pub get
+  ```
+  
+- Run the app
+
+   ```bash
+  flutter run
+  ```
+
+---
+
+## 🔚 Conclusion
+
+The Age Calculator App is a great example of building a utility app with Flutter. It demonstrates how to work with date manipulation, user input, and real-time UI updates. The project offers an excellent starting point for beginners exploring Flutter and is easily extendable for more complex features like saving history or calculating age in weeks or hours.
+
+
