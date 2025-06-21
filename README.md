@@ -1,16 +1,34 @@
-# age_calculator
+# 🧮 Age Calculator – Flutter App
 
-A new Flutter project.
+The **Age Calculator App** is a clean and efficient mobile application developed using **Flutter** and **Dart**. It allows users to calculate their exact age based on their date of birth. The app provides a user-friendly interface to display age in years, months, and days with real-time updates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📆 **Date Picker** – Select your date of birth easily
+- 🔄 **Instant Calculation** – Get your age calculated in real time
+- 🗓️ **Detailed Breakdown** – View your age in years, months, and days
+- 🎨 **Clean & Responsive UI** – Built using Flutter’s Material Design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Technology | Description              |
+|------------|--------------------------|
+| Flutter    | UI Framework             |
+| Dart       | Programming Language     |
+| Material UI| For clean visual layout  |
+
+---
+
+## 📦 Dependencies
+
+Add the following to your `pubspec.yaml` if needed:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.1  # For date formatting
